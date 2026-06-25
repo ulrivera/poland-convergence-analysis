@@ -1,0 +1,29 @@
+# Datos regenerables
+data/**/eurostat_data/*.json
+data/**/eurostat_data/*.db
+data/**/nbp_data/*.json
+data/**/worldbank_data/*.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+*.egg
+
+# Entorno
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

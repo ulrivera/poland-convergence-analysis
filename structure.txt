@@ -1,0 +1,40 @@
+tu-proyecto-convergencia/
+├── data/
+│   ├── eurostat/
+│   │   ├── eurostat_convergencia_sqlite.py      # v1.0 (existente)
+│   │   ├── eurostat_poblacion_sqlite.py         # NUEVO
+│   │   └── eurostat_estructura_sqlite.py        # NUEVO (nama_10_a64)
+│   │
+│   ├── worldbank/
+│   │   ├── worldbank_ppp_sqlite.py              # NUEVO
+│   │   └── worldbank_wgi_sqlite.py              # NUEVO
+│   │
+│   └── oecd/                                     # NUEVO
+│       └── oecd_regulatory_sqlite.py
+│
+├── notebooks/
+│   ├── v1.0/                                     # (existente)
+│   │   ├── 01_carga_y_exploracion.ipynb
+│   │   ├── 02_indice_convergencia.ipynb
+│   │   ├── 03_convergencia_beta.ipynb
+│   │   ├── 04_convergencia_sigma.ipynb
+│   │   ├── 05_visualizaciones_comparativas.ipynb
+│   │   └── 06_conclusiones.ipynb                 ← Con limitaciones y roadmap
+│   └── v2.0/
+│       ├── 01_carga_datos_refinados.ipynb
+│       ├── 02_promedio_ponderado.ipynb
+│       ├── 03_pps_vs_ppp.ipynb
+│       ├── 04_productividad_hora.ipynb
+│       ├── 05_estructura_productiva.ipynb
+│       ├── 06_calidad_institucional.ipynb
+│       ├── 07_estadistica_avanzada.ipynb
+│       └── 08_conclusiones_v2.ipynb
+│
+├── src/
+│   ├── config.py                                 # Añadir nuevos datasets
+│   ├── db_utils.py                               # Añadir funciones para nuevas tablas
+│   ├── plotting_utils.py                         # Añadir nuevos tipos de gráficos
+│   └── econometrics_utils.py                     # NUEVO (funciones de panel data, etc.)
+│
+└── docs/
+    └── v2.0_metodologia.md
